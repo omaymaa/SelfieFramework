@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/omaymaa/SelfieFramework.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Omayma Mansour' => 'omaymamansour26@gmail.com' }
-  s.source = { :git => 'https://github.com/omaymaa/SelfieFramework.git', :tag => '1.0.0' }
+  s.source           = { :git => 'https://github.com/omaymaa/SelfieFramework.git', :tag => '1.0.0' }
   s.source_files     = 'SelfieCaptureFramework/**/*.{h,m}'  # Ensure this path matches your files
-  s.platform         = :ios, '10.0'
+  s.platform         = :ios, '12.0'  
 end
